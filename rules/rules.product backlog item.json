@@ -2,7 +2,7 @@
   "type": "Product Backlog Item",
   "rules": [
     {
-      "ifChildState": "In Progress",
+      "ifChildState": "Committed",
       "notParentStates": [ "In Progress", "Deployed In Production","Removed" ],
       "setParentStateTo": "In Progress",
       "allChildren": false
