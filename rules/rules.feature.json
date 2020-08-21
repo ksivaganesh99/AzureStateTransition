@@ -1,0 +1,12 @@
+﻿{
+  "type": "Feature",
+  "rules": [
+    
+    {
+      "ifChildState": "Deployed In Production",
+      "notParentStates": [],
+      "setParentStateTo": "Deployed In Prouction",
+      "allChildren": false
+    }
+  ]
+}
